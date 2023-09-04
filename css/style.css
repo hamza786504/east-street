@@ -100,7 +100,7 @@ p {
   letter-spacing: 2.3px;
 }
 .upgrade_cloud {
-  background-image: url("../images/2Asset\ 1.png");
+  background-image: url("../images/circle_bg.png");
   background-repeat: no-repeat;
   background-size: 400px;
   padding-top: 2rem;
@@ -186,6 +186,36 @@ p {
 
 
 
+.videos_section{
+  background-image: url("../images/abstract_bg.png");
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 200px 0;
+}
+.videos_section .top .yellow_p{
+  color: var(--yellow);
+  letter-spacing: 3px;
+}
+.videos_section .top h3{
+  color: var(--blue);
+  font-size: 3.4rem;
+  margin: 1.4rem 0;
+}
+.videos_section .top h2{
+  color: var(--blue);
+  font-size: 4rem;
+  margin-bottom: 0;
+}
+
+
+
+
+
+
+.video_section_cover{
+  max-width: 30%;
+}
 
 
 
@@ -197,12 +227,40 @@ p {
 
 
 
+.rise{
+  background-image: url("../images/rize_bg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 60px 0;
+}
+.rise h2{
+  font-size: 2.7rem;
+}
+.rise p{
+  font-size: 3rem;
+}
 
-
-
-
-
-
+.rise .inner{
+  max-width: 410px;
+  margin: 0 0 0 auto;
+}
+.rise .buttons button{
+  margin-top: 0px;
+  border: none;
+}
+.rise .buttons button.cta_img_btn:nth-child(n){
+  background: url("../images/blue_img_btn.png");
+  background-size: 100%;
+  max-width: 300px;
+  width: 100%;
+  background-repeat: no-repeat;
+  padding-top: 47px;
+  font-size: 20px;
+  padding-bottom: 40px;
+  color: #f1cb6f;
+}
+.rise .buttons button.cta_img_btn:nth-child(n + 1){}
 
 
 
