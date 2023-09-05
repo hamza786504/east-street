@@ -590,3 +590,9 @@
         min-height: fit-content;
     }
 }
+
+@media screen and (min-width: 768px){
+    #warn .left {
+        background-image: url(../images/warn.png) !important;
+      }
+}
